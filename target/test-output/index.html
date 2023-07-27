@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Bookflight-Module" class="navigator-link">
+              <span class="suite-name border-failed">Bookflight-Module</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Bookflight-Module" class="navigator-link ">
+                    <span>C:\Users\sanpr\exlipsefolder 2\Selenium-docker\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Bookflight-Module" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Bookflight-Module" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Bookflight-Module" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Bookflight-Module" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Bookflight-Module" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Bookflight-Module" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 12 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Bookflight-Module" class="hide-methods failed suite-Bookflight-Module"> (hide)</a> <!-- hide-methods failed suite-Bookflight-Module -->
+                      <a href="#" panel-name="suite-Bookflight-Module" class="show-methods failed suite-Bookflight-Module"> (show)</a> <!-- show-methods failed suite-Bookflight-Module -->
+                    </span>
+                    <div class="method-list-content failed suite-Bookflight-Module">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bookflight-Module" title="com.newtours.tests.BookFlightTest" class="method navigator-link" hash-for-method="TC01_RegistrationPageTest">TC01_RegistrationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bookflight-Module" title="com.newtours.tests.BookFlightTest" class="method navigator-link" hash-for-method="TC01_RegistrationPageTest">TC01_RegistrationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bookflight-Module" title="com.newtours.tests.BookFlightTest" class="method navigator-link" hash-for-method="TC01_RegistrationPageTest">TC01_RegistrationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bookflight-Module" title="com.newtours.tests.BookFlightTest" class="method navigator-link" hash-for-method="TC02_RegistrationConfirmationPage">TC02_RegistrationConfirmationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bookflight-Module" title="com.newtours.tests.BookFlightTest" class="method navigator-link" hash-for-method="TC02_RegistrationConfirmationPage">TC02_RegistrationConfirmationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bookflight-Module" title="com.newtours.tests.BookFlightTest" class="method navigator-link" hash-for-method="TC02_RegistrationConfirmationPage">TC02_RegistrationConfirmationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bookflight-Module" title="com.newtours.tests.BookFlightTest" class="method navigator-link" hash-for-method="TC03_FlightDetailsPage">TC03_FlightDetailsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bookflight-Module" title="com.newtours.tests.BookFlightTest" class="method navigator-link" hash-for-method="TC03_FlightDetailsPage">TC03_FlightDetailsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bookflight-Module" title="com.newtours.tests.BookFlightTest" class="method navigator-link" hash-for-method="TC03_FlightDetailsPage">TC03_FlightDetailsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bookflight-Module" title="com.newtours.tests.BookFlightTest" class="method navigator-link" hash-for-method="TC04_printConfirmation">TC04_printConfirmation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bookflight-Module" title="com.newtours.tests.BookFlightTest" class="method navigator-link" hash-for-method="TC04_printConfirmation">TC04_printConfirmation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bookflight-Module" title="com.newtours.tests.BookFlightTest" class="method navigator-link" hash-for-method="TC04_printConfirmation">TC04_printConfirmation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Bookflight-Module -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Bookflight-Module" class="panel Bookflight-Module">
+          <div class="suite-Bookflight-Module-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.newtours.tests.BookFlightTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_RegistrationPageTest">
+                  </a> <!-- TC01_RegistrationPageTest -->
+                  <span class="method-name">TC01_RegistrationPageTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: coms/newtours/pages/RegistrationPage
+	at com.newtours.tests.BookFlightTest.TC01_RegistrationPageTest(BookFlightTest.java:34)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: coms.newtours.pages.RegistrationPage
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 more
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_RegistrationPageTest">
+                  </a> <!-- TC01_RegistrationPageTest -->
+                  <span class="method-name">TC01_RegistrationPageTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: coms/newtours/pages/RegistrationPage
+	at com.newtours.tests.BookFlightTest.TC01_RegistrationPageTest(BookFlightTest.java:34)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_RegistrationPageTest">
+                  </a> <!-- TC01_RegistrationPageTest -->
+                  <span class="method-name">TC01_RegistrationPageTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: coms/newtours/pages/RegistrationPage
+	at com.newtours.tests.BookFlightTest.TC01_RegistrationPageTest(BookFlightTest.java:34)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_RegistrationConfirmationPage">
+                  </a> <!-- TC02_RegistrationConfirmationPage -->
+                  <span class="method-name">TC02_RegistrationConfirmationPage</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: coms/newtours/pages/RegistrationConfirmationPage
+	at com.newtours.tests.BookFlightTest.TC02_RegistrationConfirmationPage(BookFlightTest.java:45)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_RegistrationConfirmationPage">
+                  </a> <!-- TC02_RegistrationConfirmationPage -->
+                  <span class="method-name">TC02_RegistrationConfirmationPage</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: coms/newtours/pages/RegistrationConfirmationPage
+	at com.newtours.tests.BookFlightTest.TC02_RegistrationConfirmationPage(BookFlightTest.java:45)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: coms.newtours.pages.RegistrationConfirmationPage
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 more
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_RegistrationConfirmationPage">
+                  </a> <!-- TC02_RegistrationConfirmationPage -->
+                  <span class="method-name">TC02_RegistrationConfirmationPage</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: coms/newtours/pages/RegistrationConfirmationPage
+	at com.newtours.tests.BookFlightTest.TC02_RegistrationConfirmationPage(BookFlightTest.java:45)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_FlightDetailsPage">
+                  </a> <!-- TC03_FlightDetailsPage -->
+                  <span class="method-name">TC03_FlightDetailsPage</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: coms/newtours/pages/FlightDetailsPage
+	at com.newtours.tests.BookFlightTest.TC03_FlightDetailsPage(BookFlightTest.java:53)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: coms.newtours.pages.FlightDetailsPage
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 more
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_FlightDetailsPage">
+                  </a> <!-- TC03_FlightDetailsPage -->
+                  <span class="method-name">TC03_FlightDetailsPage</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: coms/newtours/pages/FlightDetailsPage
+	at com.newtours.tests.BookFlightTest.TC03_FlightDetailsPage(BookFlightTest.java:53)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_FlightDetailsPage">
+                  </a> <!-- TC03_FlightDetailsPage -->
+                  <span class="method-name">TC03_FlightDetailsPage</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: coms/newtours/pages/FlightDetailsPage
+	at com.newtours.tests.BookFlightTest.TC03_FlightDetailsPage(BookFlightTest.java:53)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_printConfirmation">
+                  </a> <!-- TC04_printConfirmation -->
+                  <span class="method-name">TC04_printConfirmation</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: coms/newtours/pages/FlightConfirmationPage
+	at com.newtours.tests.BookFlightTest.TC04_printConfirmation(BookFlightTest.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: coms.newtours.pages.FlightConfirmationPage
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 more
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_printConfirmation">
+                  </a> <!-- TC04_printConfirmation -->
+                  <span class="method-name">TC04_printConfirmation</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: coms/newtours/pages/FlightConfirmationPage
+	at com.newtours.tests.BookFlightTest.TC04_printConfirmation(BookFlightTest.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_printConfirmation">
+                  </a> <!-- TC04_printConfirmation -->
+                  <span class="method-name">TC04_printConfirmation</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: coms/newtours/pages/FlightConfirmationPage
+	at com.newtours.tests.BookFlightTest.TC04_printConfirmation(BookFlightTest.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bookflight-Module-class-failed -->
+        </div> <!-- panel Bookflight-Module -->
+        <div panel-name="test-xml-Bookflight-Module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sanpr\exlipsefolder 2\Selenium-docker\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Bookflight-Module&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test_for 2&quot;&gt;
+    &lt;parameter name=&quot;expectedprice&quot; value=&quot;$1169 USD&quot;/&gt;
+    &lt;parameter name=&quot;noOfPassanengers&quot; value=&quot;2&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.newtours.tests.BookFlightTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_for 2 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TesT for 3&quot;&gt;
+    &lt;parameter name=&quot;expectedprice&quot; value=&quot;$1753 USD&quot;/&gt;
+    &lt;parameter name=&quot;noOfPassanengers&quot; value=&quot;3&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.newtours.tests.BookFlightTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TesT for 3 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TesT for 6&quot;&gt;
+    &lt;parameter name=&quot;expectedprice&quot; value=&quot;$2338 USD&quot;/&gt;
+    &lt;parameter name=&quot;noOfPassanengers&quot; value=&quot;4&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.newtours.tests.BookFlightTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TesT for 6 --&gt;
+&lt;/suite&gt; &lt;!-- Bookflight-Module --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Bookflight-Module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Bookflight-Module</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test_for 2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TesT for 3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TesT for 6 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Bookflight-Module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Bookflight-Module</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Bookflight-Module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Bookflight-Module</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Bookflight-Module');
+function tableData_Bookflight-Module() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC01_RegistrationPageTest')
+data.setCell(0, 2, 'com.newtours.tests.BookFlightTest')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC02_RegistrationConfirmationPage')
+data.setCell(1, 2, 'com.newtours.tests.BookFlightTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC03_FlightDetailsPage')
+data.setCell(2, 2, 'com.newtours.tests.BookFlightTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC04_printConfirmation')
+data.setCell(3, 2, 'com.newtours.tests.BookFlightTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC02_RegistrationConfirmationPage')
+data.setCell(4, 2, 'com.newtours.tests.BookFlightTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC01_RegistrationPageTest')
+data.setCell(5, 2, 'com.newtours.tests.BookFlightTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC04_printConfirmation')
+data.setCell(6, 2, 'com.newtours.tests.BookFlightTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC03_FlightDetailsPage')
+data.setCell(7, 2, 'com.newtours.tests.BookFlightTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC02_RegistrationConfirmationPage')
+data.setCell(8, 2, 'com.newtours.tests.BookFlightTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC01_RegistrationPageTest')
+data.setCell(9, 2, 'com.newtours.tests.BookFlightTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC03_FlightDetailsPage')
+data.setCell(10, 2, 'com.newtours.tests.BookFlightTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC04_printConfirmation')
+data.setCell(11, 2, 'com.newtours.tests.BookFlightTest')
+data.setCell(11, 3, 0);
+window.suiteTableData['Bookflight-Module']= { tableData: data, tableDiv: 'times-div-Bookflight-Module'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Bookflight-Module">
+              </div> <!-- times-div-Bookflight-Module -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Bookflight-Module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Bookflight-Module</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Bookflight-Module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Bookflight-Module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.newtours.tests.BookFlightTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupDriver(org.testng.TestRunner@7c3fdb62)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupDriver(org.testng.TestRunner@205d38da)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupDriver(org.testng.TestRunner@6950ed69)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupParameter(3, $1753 USD)</span>
+                <span class="method-start">357 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupParameter(4, $2338 USD)</span>
+                <span class="method-start">357 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC01_RegistrationPageTest</span>
+                <span class="method-start">362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC01_RegistrationPageTest</span>
+                <span class="method-start">362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC02_RegistrationConfirmationPage</span>
+                <span class="method-start">363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC02_RegistrationConfirmationPage</span>
+                <span class="method-start">363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC03_FlightDetailsPage</span>
+                <span class="method-start">364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC03_FlightDetailsPage</span>
+                <span class="method-start">364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC04_printConfirmation</span>
+                <span class="method-start">364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC04_printConfirmation</span>
+                <span class="method-start">364 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">364 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">364 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setupParameter(2, $1169 USD)</span>
+                <span class="method-start">561 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC01_RegistrationPageTest</span>
+                <span class="method-start">562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC02_RegistrationConfirmationPage</span>
+                <span class="method-start">562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC03_FlightDetailsPage</span>
+                <span class="method-start">562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC04_printConfirmation</span>
+                <span class="method-start">562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">562 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

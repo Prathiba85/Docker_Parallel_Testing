@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.newtours.tests.BookFlightTest">
+        <methods>
+          <include name="TC03_FlightDetailsPage"/>
+          <include name="TC04_printConfirmation"/>
+          <include name="TC02_RegistrationConfirmationPage"/>
+          <include name="setupParameter"/>
+          <include name="teardown"/>
+          <include name="TC01_RegistrationPageTest"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Search]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test01(failed)">
+    <parameter name="keyword" value="java"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="TC01_SearchText"/>
+          <include name="teardown"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- Test01(failed) -->
+  <test thread-count="5" name="Test02(failed)">
+    <parameter name="keyword" value="qa"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="TC01_SearchText"/>
+          <include name="teardown"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- Test02(failed) -->
+  <test thread-count="5" name="Test03(failed)">
+    <parameter name="keyword" value="webdriver"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="TC01_SearchText"/>
+          <include name="teardown"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- Test03(failed) -->
+  <test thread-count="5" name="Test04(failed)">
+    <parameter name="keyword" value="docker"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="TC01_SearchText"/>
+          <include name="teardown"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- Test04(failed) -->
+</suite> <!-- Failed suite [Search] -->

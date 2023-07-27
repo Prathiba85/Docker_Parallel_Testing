@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Bookflight-Module]" parallel="tests">
+  <test thread-count="5" name="Test_for 2(failed)" parallel="tests">
+    <parameter name="expectedprice" value="$1169 USD"/>
+    <parameter name="noOfPassanengers" value="2"/>
+    <classes>
+      <class name="com.newtours.tests.BookFlightTest">
+        <methods>
+          <include name="TC03_FlightDetailsPage"/>
+          <include name="TC04_printConfirmation"/>
+          <include name="TC02_RegistrationConfirmationPage"/>
+          <include name="setupParameter"/>
+          <include name="teardown"/>
+          <include name="TC01_RegistrationPageTest"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </classes>
+  </test> <!-- Test_for 2(failed) -->
+  <test thread-count="5" name="TesT for 6(failed)" parallel="tests">
+    <parameter name="expectedprice" value="$2338 USD"/>
+    <parameter name="noOfPassanengers" value="4"/>
+    <classes>
+      <class name="com.newtours.tests.BookFlightTest">
+        <methods>
+          <include name="TC03_FlightDetailsPage"/>
+          <include name="TC04_printConfirmation"/>
+          <include name="TC02_RegistrationConfirmationPage"/>
+          <include name="setupParameter"/>
+          <include name="teardown"/>
+          <include name="TC01_RegistrationPageTest"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </classes>
+  </test> <!-- TesT for 6(failed) -->
+  <test thread-count="5" name="TesT for 3(failed)" parallel="tests">
+    <parameter name="expectedprice" value="$1753 USD"/>
+    <parameter name="noOfPassanengers" value="3"/>
+    <classes>
+      <class name="com.newtours.tests.BookFlightTest">
+        <methods>
+          <include name="TC03_FlightDetailsPage"/>
+          <include name="TC04_printConfirmation"/>
+          <include name="TC02_RegistrationConfirmationPage"/>
+          <include name="setupParameter"/>
+          <include name="teardown"/>
+          <include name="TC01_RegistrationPageTest"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </classes>
+  </test> <!-- TesT for 3(failed) -->
+</suite> <!-- Failed suite [Bookflight-Module] -->
